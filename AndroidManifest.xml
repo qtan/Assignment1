@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.travelpack"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.travelpack.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.travelpack.Add_Page"
+            android:label="@string/title_activity_add__page" >
+        </activity>
+        <activity
+            android:name="com.example.travelpack.Expemses_items"
+            android:label="@string/title_activity_expemses_items" >
+        </activity>
+        <activity
+            android:name="com.example.travelpack.Expense_items"
+            android:label="@string/title_activity_expense_items" >
+        </activity>
+        <activity
+            android:name="com.example.travelpack.Add_Items_List"
+            android:label="@string/title_activity_add__items__list" >
+        </activity>
+        <activity
+            android:name="com.example.travelpack.Claims"
+            android:label="@string/title_activity_claims" >
+        </activity>
+    </application>
+
+</manifest>
