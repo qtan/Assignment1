@@ -1,2 +1,3 @@
 # Assignment1
-TravelPack for expenses and claims
+This is a SIMPLE APP for recording EXPENSES and tracking CLAIMS
+ENJOY IT
